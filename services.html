@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Services - Onshore Hub</title>
-  <meta name="description" content="">
+  <title>Medical Billing &amp; Healthcare VA Services | Onshore Hub</title>
+  <meta name="description" content="End-to-end medical billing, A/R dues recovery, coding, scheduling VAs, insurance verification and credentialing for US practices.">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
@@ -26,6 +26,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
 </head>
 
 <body class="services-page">
@@ -42,13 +43,27 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="dropdown"><a href="services.html" class="active"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="services.html#service-1">End-to-End Medical Billing &amp; RCM</a></li>
+              <li><a href="services.html#service-1">Claims Submission &amp; Denial Management</a></li>
+              <li><a href="services.html#service-2">Accounts Receivable (A/R) &amp; Dues Recovery</a></li>
+              <li><a href="services.html#service-3">Medical Coding (ICD-10 / CPT)</a></li>
+              <li><a href="services.html#service-5">Insurance Eligibility &amp; Prior Authorization</a></li>
+              <li><a href="services.html#service-4">Appointment Scheduling &amp; Front-Desk VA</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#how-it-works">How It Works</a></li>
+          <li><a href="index.html#faq">FAQs</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li class="d-xl-none"><a href="contact.html">Book a Free Billing Audit</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
+
+      <a class="btn-getstarted d-none d-xl-inline-block" href="contact.html">Book a Free Billing Audit</a>
 
     </div>
   </header>
@@ -58,207 +73,83 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container position-relative">
-        <h1>Virtual Support That Works as Hard as You Do</h1>
+        <h1>Medical Billing &amp; Healthcare Support Services</h1>
+        <p>Six core services for US solo physicians, clinics and medical practices.</p>
         <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Services</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Featured Services Section -->
-    <section id="featured-services" class="featured-services section">
+    <!-- Medical Services Section -->
+    <section id="services" class="medical-services section">
 
       <div class="container">
 
         <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <div class="icon">
-                <i class="bi bi-activity"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Insurance Back-Office Support</h3>
-              </a>
-              <p>We handle essential insurance tasks like COIs, endorsements, renewals, and policy checks, so your team can stay focused on client relationships and growth.</p>
+          <div class="col-lg-6 col-md-6" id="service-1" data-aos="fade-up" data-aos-delay="150">
+            <div class="service-card">
+              <div class="icon"><i class="bi bi-receipt"></i></div>
+              <h3>End-to-End Medical Billing &amp; RCM</h3>
+              <p>Charge entry, clearinghouse submission, ERA/EOB payment posting, secondary billing, and monthly financial KPI reporting.</p>
+              <a href="contact.html" class="btn-teal">Request Custom Quote</a>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Service 1 -->
 
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item item-orange position-relative">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Recruitment Solutions</h3>
-              </a>
-              <p>From sourcing and screening to shortlisting qualified candidates, we support your hiring process with speed and precision, saving you valuable time and effort.</p>
+          <div class="col-lg-6 col-md-6" id="service-2" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card">
+              <div class="icon"><i class="bi bi-cash-coin"></i></div>
+              <h3>Accounts Receivable (A/R) &amp; Dues Recovery</h3>
+              <p>Insurance A/R follow-up (30/60/90/120+ days), underpayment recovery, denial root-cause correction, and polite patient balance collections.</p>
+              <a href="contact.html" class="btn-teal">Request Custom Quote</a>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Service 2 -->
 
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item item-teal position-relative">
-              <div class="icon">
-                <i class="bi bi-easel"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Customer Support</h3>
-              </a>
-              <p>Deliver exceptional experiences to your customers with our reliable, friendly, and professional support team available across multiple channels.</p>
+          <div class="col-lg-6 col-md-6" id="service-3" data-aos="fade-up" data-aos-delay="250">
+            <div class="service-card">
+              <div class="icon"><i class="bi bi-file-medical"></i></div>
+              <h3>Medical Coding &amp; Compliance Audits</h3>
+              <p>Certified coders for ICD-10-CM, CPT, and HCPCS across Primary Care, Dental, Mental Health, Physical Therapy, Cardiology, and Urgent Care.</p>
+              <a href="contact.html" class="btn-teal">Request Custom Quote</a>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Service 3 -->
 
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item item-red position-relative">
-              <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Administrative Tasks</h3>
-              </a>
-              <p>Let us take care of your day-to-day admin work email management, calendar scheduling, data entry, and more so you can focus on what truly matters.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+          <div class="col-lg-6 col-md-6" id="service-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card">
+              <div class="icon"><i class="bi bi-calendar2-heart"></i></div>
+              <h3>Appointment Scheduling &amp; Patient Support VA</h3>
+              <p>Inbound/outbound patient calls, calendar optimization, recall lists, no-show reduction reminders, and patient portal messaging.</p>
+              <a href="contact.html" class="btn-teal">Request Custom Quote</a>
             </div>
-          </div><!-- End Service Item -->
-        </div>
+          </div><!-- End Service 4 -->
 
-      </div>
-
-    </section><!-- /Featured Services Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="img">
-                <img src="assets/img/services-1.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details">
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Smarter Workflow Management</h3>
-                </a>
-                <p>Let us handle the repetitive tasks, so you stay focused on strategy, not the small stuff.</p>
-              </div>
+          <div class="col-lg-6 col-md-6" id="service-5" data-aos="fade-up" data-aos-delay="350">
+            <div class="service-card">
+              <div class="icon"><i class="bi bi-clipboard2-check"></i></div>
+              <h3>Insurance Eligibility &amp; Prior Authorizations</h3>
+              <p>Real-time benefits verification, deductible/co-pay checks, referral tracking, and prior authorizations 48 hours pre-visit.</p>
+              <a href="contact.html" class="btn-teal">Request Custom Quote</a>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Service 5 -->
 
-          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="img">
-                <img src="assets/img/services-2.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details">
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Talent Hunt Made Easy</h3>
-                </a>
-                <p>We search, screen, and support your hiring process like an extension of your in-house team.</p>
-              </div>
+          <div class="col-lg-6 col-md-6" id="service-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-card">
+              <div class="icon"><i class="bi bi-person-vcard"></i></div>
+              <h3>Provider Credentialing &amp; Payer Enrollment</h3>
+              <p>CAQH profile management, Medicare/Medicaid enrollment, and commercial insurance contracting.</p>
+              <a href="contact.html" class="btn-teal">Request Custom Quote</a>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Service 6 -->
 
-          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="img">
-                <img src="assets/img/services-3.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details">
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Human-First Support Desk</h3>
-                </a>
-                <p>Your clients get fast, friendly help. You get more time and fewer worries.</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="img">
-                <img src="assets/img/services-4.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details">
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Seamless Admin Handling</h3>
-                </a>
-                <p>From follow-ups to form filling we keep the back-end running smoothly.</p>
-                <a href="service-details.html" class="stretched-link"></a>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
 
         </div>
 
       </div>
 
-    </section><!-- /Services Section -->
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Transparent pricing, real value.</h2>
-        <p>Our flexible packages are designed to fit your needs—no hidden fees, just efficient support.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row g-4 g-lg-0">
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Free Plan</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4 featured" data-aos="zoom-in" data-aos-delay="200">
-            <div class="pricing-item">
-              <h3>Business Plan</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Developer Plan</h3>
-              <h4><sup>$</sup>49<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Pricing Section -->
+    </section><!-- /Medical Services Section -->
 
   </main>
 
@@ -270,8 +161,8 @@
           <div class="col-lg-6">
             <h4>Join Our Newsletter</h4>
             <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-            <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <form data-form-type="newsletter" class="email-form">
+              <div class="newsletter-form"><input type="email" name="email" required aria-label="Your email address"><input type="submit" value="Subscribe"></div>
               <div class="loading">Loading</div>
               <div class="error-message"></div>
               <div class="sent-message">Your subscription request has been sent. Thank you!</div>
@@ -288,19 +179,21 @@
             <span class="sitename">Onshore Hub</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>127 Ostwal Plaza II</p>
-            <p>Sunderwas Udaipur, ZIP 313001</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+91 94629 95872</span></p>
-            <p><strong>Email:</strong> <span>info@onshorehub.co</span></p>
+            <p><strong>USA Support Desk:</strong> <span>+1 (XXX) XXX-XXXX</span></p>
+            <p class="mt-3"><strong>Operations Center:</strong></p>
+            <p>122 Ostwal Plaza II</p>
+            <p>Sunderwas, Udaipur, RJ 313001</p>
+            <p class="mt-3"><strong>Email:</strong> <span>info@onshorehub.co</span></p>
+            <p class="mt-3 hipaa-badge"><i class="bi bi-shield-check"></i> HIPAA Compliant &amp; BAA Ready</p>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="about.html">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services.html">Services</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
           </ul>
         </div>
@@ -308,11 +201,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Virtual Assistant Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">
-Insurance Back‑Office Support</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Recruitment & Talent Acquisition</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Research & Analytics Support</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services.html#service-1">End-to-End Medical Billing &amp; RCM</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services.html#service-2">Claims &amp; A/R Dues Recovery</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services.html#service-3">Medical Coding &amp; Charge Entry</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services.html#service-4">Patient Scheduling &amp; Front-Desk VA</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services.html#service-6">Provider Credentialing</a></li>
           </ul>
         </div>
 
@@ -351,7 +244,7 @@ Insurance Back‑Office Support</a></li>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/js/forms.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
