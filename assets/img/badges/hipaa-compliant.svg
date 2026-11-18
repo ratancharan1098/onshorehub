@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="t">
+  <title id="t">HIPAA Compliant</title>
+  <rect x="4" y="4" width="152" height="152" rx="24" fill="#ffffff" stroke="#004f98" stroke-width="4"/>
+  <path d="M80 20 L113 32 V57 C113 76 99 89 80 96 C61 89 47 76 47 57 V32 Z" fill="#004f98"/>
+  <path d="M80 28 L105 37.5 V57 C105 71 95 81 80 87 Z" fill="#17a2a8" opacity="0.9"/>
+  <path d="M65 58 L76 69 L96 46" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="80" y="124" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="800" fill="#004f98" letter-spacing="1">HIPAA</text>
+  <text x="80" y="144" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#17a2a8" letter-spacing="2.4">COMPLIANT</text>
+</svg>

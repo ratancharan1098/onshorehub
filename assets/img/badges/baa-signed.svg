@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="t">
+  <title id="t">Business Associate Agreement Signed</title>
+  <rect x="4" y="4" width="152" height="152" rx="24" fill="#ffffff" stroke="#004f98" stroke-width="4"/>
+  <path d="M56 20 H92 L106 34 V94 A4 4 0 0 1 102 98 H56 A4 4 0 0 1 52 94 V24 A4 4 0 0 1 56 20 Z" fill="#004f98"/>
+  <path d="M92 20 V34 H106 Z" fill="#17a2a8"/>
+  <rect x="61" y="40" width="34" height="5" rx="2.5" fill="#ffffff" opacity="0.9"/>
+  <rect x="61" y="51" width="34" height="5" rx="2.5" fill="#ffffff" opacity="0.9"/>
+  <rect x="61" y="62" width="22" height="5" rx="2.5" fill="#ffffff" opacity="0.9"/>
+  <path d="M60 85 C66 74 70 92 76 82 C80 75 83 88 90 80 C93 77 96 79 98 81" fill="none" stroke="#3fc1c9" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="80" y="124" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="27" font-weight="800" fill="#004f98" letter-spacing="1">BAA</text>
+  <text x="80" y="144" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#17a2a8" letter-spacing="2.4">SIGNED</text>
+</svg>
