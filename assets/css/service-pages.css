@@ -1,0 +1,195 @@
+/* Individual service pages */
+
+.service-details .svc-intro {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  background: linear-gradient(135deg, #004f98 0%, #1e4356 100%);
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 28px;
+  margin-bottom: 24px;
+}
+
+.service-details .svc-intro-icon {
+  flex: 0 0 64px;
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-details .svc-intro-icon i {
+  font-size: 32px;
+  color: #3fc1c9;
+}
+
+.service-details .svc-lead {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+  color: #ffffff;
+}
+
+.service-details .svc-heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin: 36px 0 16px;
+}
+
+.service-details .svc-feature {
+  display: flex;
+  gap: 14px;
+  height: 100%;
+  padding: 18px;
+  border: 1px solid color-mix(in srgb, var(--heading-color), transparent 85%);
+  border-radius: 10px;
+  background: var(--surface-color);
+}
+
+.service-details .svc-feature i {
+  font-size: 24px;
+  color: #17a2a8;
+  line-height: 1;
+}
+
+.service-details .svc-feature h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: var(--heading-color);
+}
+
+.service-details .svc-feature p {
+  font-size: 14px;
+  margin: 0;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+}
+
+.service-details .svc-hipaa {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  background: color-mix(in srgb, #17a2a8, transparent 90%);
+  border-left: 4px solid #17a2a8;
+  border-radius: 6px;
+  padding: 14px 16px;
+}
+
+.service-details .svc-hipaa i {
+  color: #17a2a8;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.service-details .svc-steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.service-details .svc-steps li {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.service-details .svc-step-num {
+  flex: 0 0 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--heading-color);
+  color: #ffffff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-details .svc-steps h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 2px 0 4px;
+  color: var(--heading-color);
+}
+
+.service-details .svc-steps p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.service-details .svc-cta {
+  margin-top: 40px;
+  padding: 28px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--heading-color), transparent 93%);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service-details .svc-cta h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: var(--heading-color);
+}
+
+.service-details .svc-cta p {
+  margin: 0;
+}
+
+.service-details .svc-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.service-details .btn-cta-primary,
+.service-details .btn-cta-secondary {
+  display: inline-block;
+  padding: 11px 22px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.service-details .btn-cta-primary {
+  background: #17a2a8;
+  color: #ffffff;
+}
+
+.service-details .btn-cta-primary:hover {
+  background: #128388;
+  color: #ffffff;
+}
+
+.service-details .btn-cta-secondary {
+  border: 2px solid var(--heading-color);
+  color: var(--heading-color);
+}
+
+.service-details .btn-cta-secondary:hover {
+  background: var(--heading-color);
+  color: #ffffff;
+}
+
+@media (max-width: 575px) {
+  .service-details .svc-intro {
+    flex-direction: column;
+    padding: 22px;
+  }
+
+  .service-details .svc-cta {
+    padding: 22px;
+  }
+}
