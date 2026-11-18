@@ -525,3 +525,114 @@
     padding: 8px 18px;
   }
 }
+
+/* Blog authors, CTAs and sidebar
+------------------------------*/
+.author-initials {
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 12px;
+  background: var(--brand-navy);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.author-initials-lg {
+  flex-basis: 60px;
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  margin-right: 0;
+}
+
+.blog-details .post-author-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid var(--brand-border);
+  border-radius: 12px;
+}
+
+.blog-details .post-author-box h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 2px 0;
+  color: var(--brand-navy);
+}
+
+.blog-details .post-author-box p {
+  margin: 0;
+  font-size: 14px;
+  color: #5b6b7b;
+}
+
+.blog-details .post-author-label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brand-teal);
+}
+
+.blog-details .content h3 {
+  color: var(--brand-navy);
+  margin-top: 28px;
+}
+
+.blog-cta-box p {
+  margin-bottom: 18px;
+}
+
+.blog-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-outline-navy {
+  display: inline-block;
+  border: 2px solid var(--brand-navy);
+  color: var(--brand-navy);
+  border-radius: 50px;
+  padding: 9px 24px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.btn-outline-navy:hover {
+  background: var(--brand-navy);
+  color: #ffffff;
+}
+
+.sidebar .sidebar-call-widget {
+  text-align: center;
+  background: var(--brand-tint);
+}
+
+.sidebar .sidebar-call-widget > i {
+  font-size: 34px;
+  color: var(--brand-teal);
+}
+
+.sidebar .sidebar-call-widget p {
+  margin: 10px 0 18px;
+}
+
+/* Cal.com booking embed */
+.contact .cal-inline {
+  width: 100%;
+  min-height: 640px;
+  margin-top: 16px;
+  overflow: auto;
+}
