@@ -12,6 +12,18 @@
   --brand-border: #dbe5ef;
 }
 
+/* One font everywhere. These rules win even if an older copy of main.css
+   is cached by the browser or a CDN. */
+html body,
+body h1, body h2, body h3, body h4, body h5, body h6,
+body p, body a, body li, body span, body label, body time, body blockquote,
+body button, body input, body select, body textarea,
+body .accordion-button, body .accordion-body,
+body .navmenu a, body .btn-getstarted, body .btn-get-started,
+body .sitename, body .section-title h2, body .section-title p {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
 /* Buttons
 ------------------------------*/
 .btn-teal,
@@ -635,4 +647,35 @@
   min-height: 640px;
   margin-top: 16px;
   overflow: auto;
+}
+
+/* HIPAA and BAA badges
+------------------------------*/
+.trust-logos {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.trust-logos img {
+  width: 96px;
+  height: 96px;
+}
+
+.footer .footer-badges {
+  display: flex;
+  gap: 10px;
+}
+
+.footer .footer-badges img {
+  width: 64px;
+  height: 64px;
+}
+
+@media (max-width: 575px) {
+  .trust-logos img {
+    width: 80px;
+    height: 80px;
+  }
 }
