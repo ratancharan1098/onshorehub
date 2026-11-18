@@ -25,8 +25,8 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-  <link href="assets/css/custom.css" rel="stylesheet">
+  <link href="assets/css/main.css?v=20261119" rel="stylesheet">
+  <link href="assets/css/custom.css?v=20261119" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Onshore Hub
@@ -163,10 +163,14 @@
                 <div class="calendly-slot" data-aos="fade-up" data-aos-delay="300">
                   <h3>Book a Free 15-Minute Call</h3>
                   <p>Pick a slot in your US time zone (EST/CST/MST/PST).</p>
-                  <!-- Calendly inline widget: replace YOUR-CALENDLY-LINK with your Calendly URL, then remove this comment wrapper.
-                  <div class="calendly-inline-widget" data-url="https://calendly.com/YOUR-CALENDLY-LINK/15min" style="min-width:280px;height:640px;"></div>
-                  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-                  -->
+                  <a href="https://cal.com/ratan-onshorehub" class="btn-teal mt-3" target="_blank" rel="noopener">Open the booking page</a>
+                  <div id="cal-inline" class="cal-inline"></div>
+                  <script type="text/javascript">
+                    (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); } else p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+                    Cal("init", { origin: "https://cal.com" });
+                    Cal("inline", { elementOrSelector: "#cal-inline", calLink: "ratan-onshorehub", layout: "month_view" });
+                    Cal("ui", { styles: { branding: { brandColor: "#17a2a8" } }, hideEventTypeDetails: false, layout: "month_view" });
+                  </script>
                 </div>
               </div>
 
